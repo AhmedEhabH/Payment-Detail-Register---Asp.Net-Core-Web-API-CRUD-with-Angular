@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+/* * {
+    background-color: #3d3d3d;
+    color: #eee;
+} */
+
+.mouse-hover {
+    cursor: pointer;
+}
+
+form label {
+    text-transform: uppercase;
+    color: grey;
+}
+
+form input {
+    font-weight: 500;
+}
+
+form input::placeholder {
+    color: #c0bdbd;
+    font-weight: 300;
+}
+
+form.submitted input.ng-invalid {
+    border-color: red;
+}
